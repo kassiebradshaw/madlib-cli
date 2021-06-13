@@ -31,7 +31,7 @@ def parse_template(string):
     """
     This function takes an incoming string and strips everything
     inside curly brackets out, and puts them into a "parts" tuple.
-    Then it replaces the original incoming string with a "stripped"
+    Then it replaces the original string with a "stripped"
     version of the string.
     """
 
@@ -47,4 +47,9 @@ def parse_template(string):
     
 
 def merge(str, tuple):
+    """
+    Function takes a string and a tuple as parameters.
+    The string is formatted with the tuple to fill in the blanks.
+    """
+
     return str.format(*tuple)
