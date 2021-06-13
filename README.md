@@ -39,7 +39,7 @@ In this assignment you will be creating a command line application which takes a
 ## **Resources**
 
 * Starter test script is supplied and should be moved into your application's tests folder.
-  * [ ] *NOTE:* All included tests must pass as written
+  * [x] *NOTE:* All included tests must pass as written
   * [ ] You can add more tests if you like
 
 * [Python String format() Method](https://www.w3schools.com/python/ref_string_format.asp)
@@ -62,6 +62,10 @@ In this assignment you will be creating a command line application which takes a
 * PASSES: test_parse_template
 * PASSES: test_merge
 * PASSES: test_read_template_raises_exception_with_bad_path
+
+06-13-2021:
+
+* 
 
 ---
 
