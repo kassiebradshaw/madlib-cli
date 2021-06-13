@@ -23,30 +23,28 @@ def read_template(str):
         try:
             contents = file.read()
             print(contents)
-            # saved_content = contents
             return contents
         except FileNotFoundError:
             return 'This file does not exist'
-        # finally:
-        #     print(saved_content)
 
 def parse_template(string):
     """
-    This function strips the file's
-    contents and breaks it into a "stripped" string
-    and a "parts" tuple
+    This function takes an incoming string and strips everything
+    inside curly brackets out, and puts them into a "parts" tuple.
+    Then it replaces the original incoming string with a "stripped"
+    version of the string.
     """
 
-    incoming_string = string
+    stripped = string
 
-    parts = tuple(re.findall(r"\{(.*?)\}", incoming_string))
+    parts = tuple(re.findall(r"\{(.*?)\}", stripped))
 
-    string = re.sub(r"\{(.*?)\}", "{}", incoming_string)
+    string = re.sub(r"\{(.*?)\}", "{}", stripped)
 
     print(string, parts)
     return (string, parts)
 
     
 
-def test_merge(str, tuple):
-    pass
+def merge(str, tuple):
+    return str.format(*tuple)

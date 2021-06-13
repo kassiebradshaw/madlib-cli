@@ -58,6 +58,11 @@ In this assignment you will be creating a command line application which takes a
 
 06-12-2021:
 
+* PASSES: test_read_template_returns_stripped_string
+* PASSES: test_parse_template
+* PASSES: test_merge
+* PASSES: test_read_template_raises_exception_with_bad_path
+
 ---
 
 ## **Collaboration & Credit**
