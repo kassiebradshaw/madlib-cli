@@ -20,13 +20,13 @@ In this assignment you will be creating a command line application which takes a
 
 [ ] Keeping in mind the concept of [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle), build a command line tool which will perform the following:
 
-    [ ] Print a welcome message to the user, explaining the Madlib process and command line interactions
+    [x] Print a welcome message to the user, explaining the Madlib process and command line interactions
     [x] Read a template Madlib file, and parse that file into usable parts.
-    [ ] Prompt the user to submit a series of words to fit each of the required components of the Madlib template
-    [ ] With the collected user inputs, populate the template such that each provided input is placed into the correct position within the template.
-    [ ] After the resulting Madlib has been completed, provide the completed response back to the user in the command line.
-    [ ] Write the completed text to a new file on your file system (in the repo). 
-    [ ] Note: A smaller example file is included as well which can be handy when developing/testing.
+    [x] Prompt the user to submit a series of words to fit each of the required components of the Madlib template
+    [x] With the collected user inputs, populate the template such that each provided input is placed into the correct position within the template.
+    [x] After the resulting Madlib has been completed, provide the completed response back to the user in the command line.
+    [x] Write the completed text to a new file on your file system (in the repo). 
+    [x] Note: A smaller example file is included as well which can be handy when developing/testing.
 
 ## **Stretch Goals**
 
@@ -65,7 +65,15 @@ In this assignment you will be creating a command line application which takes a
 
 06-13-2021:
 
-* 
+* created game functions:
+  * welcome
+  * intro
+  * instructions
+  * game
+  * save_story
+  * display_game
+* cleaned up code a little bit
+* added comments & docstrings
 
 ---
 
