@@ -28,7 +28,7 @@ def intro():
 
     print("""    *                                               *
      *              A game that takes              *         
-      *      that takes user input to fill in     *  
+      *           user input to fill in           *  
        *        category-specific blanks,        *   
       *            in order to create a           *  
      *                 silly story.                * 
